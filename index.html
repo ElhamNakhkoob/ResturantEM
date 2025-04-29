@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ResturantEM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1>Welcome to our Resturant</h1>
+  <body class="flex flex-col min-h-screen max-w-screen-lg mx-auto">
+    <!-- Header -->
+    <header class="bg-blue-500 text-white py-4">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-center text-3xl font-bold">Header</h1>
+      </div>
+    </header>
+
+    <main class="flex-grow">
+      <!-- Section 1 -->
+      <section class="bg-red-200 py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-xl font-semibold">Section1</h2>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="bg-green-200 py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-xl font-semibold">section2</h2>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="bg-yellow-200 py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-xl font-semibold">section3</h2>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h1>Footer</h1>
+        <p class="text-center">&copy; 2025 ResturantEM. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
