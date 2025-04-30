@@ -8,40 +8,75 @@
       href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
       rel="stylesheet"
     />
-    <title>ResturantEM</title>
+    <title>About Us | RestaurantEM</title>
   </head>
-  <body class="flex flex-col min-h-screen max-w-screen-lg mx-auto">
+  <body class="flex flex-col min-h-screen max-w-screen-xl mx-auto">
     <header class="bg-[#D9AC84] text-white">
       <div
-        class="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4"
+        class="px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between gap-4"
       >
-        <div class="flex items-center">
-          <button class="text-white focus:outline-none">
+        <div class="flex items-center justify-between w-full md:w-auto">
+          <button>
             <img
               src="../images/menu.png"
               alt="menu"
-              class="w-[30px] h-[30px] filter invert"
+              class="w-8 h-8 filter invert"
             />
           </button>
+          <div
+            class="text-2xl font-bold md:hidden"
+            style="font-family: 'Italiana', serif"
+          >
+            TOSKANA
+          </div>
         </div>
-        <div class="text-lg font-bold" style="font-family: 'Italiana', serif">
+        <div
+          class="hidden md:block text-3xl font-bold"
+          style="font-family: 'Italiana', serif"
+        >
           TOSKANA
         </div>
-        <nav class="flex space-x-4">
+        <nav
+          class="w-full md:w-auto flex flex-col md:flex-row items-center gap-2 md:gap-6 text-sm md:text-base"
+        >
+          <a href="./reserve.html" class="hover:underline">Reserve</a>
           <a href="../index.html" class="hover:underline">Home</a>
           <a href="#" class="hover:underline">About</a>
           <a href="./contact.html" class="hover:underline">Contact</a>
         </nav>
       </div>
     </header>
-
-    <main class="flex-grow"></main>
-
-    <footer class="bg-gray-800 text-white py-4">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h1>Footer</h1>
-        <p class="text-center">&copy; 2025 ResturantEM. All rights reserved.</p>
-      </div>
+    <main class="flex-grow py-16 px-4 sm:px-6 lg:px-8">
+      <section class="max-w-4xl mx-auto text-center">
+        <h1
+          class="text-4xl font-bold mb-6"
+          style="font-family: 'Italiana', serif"
+        >
+          About Us
+        </h1>
+        <p class="text-xl text-gray-700 mb-8">
+          We believe in creating unforgettable dining experiences with a focus
+          on fresh, locally-sourced ingredients. Our passion for food and
+          hospitality drives us to offer a welcoming atmosphere where every meal
+          feels like a celebration.
+        </p>
+        <div class="bg-[#D9AC84] text-white py-10 px-8 rounded-lg shadow-lg">
+          <h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
+          <p class="text-lg">
+            At Toskana, we are dedicated to offering an exceptional dining
+            experience that celebrates the art of cooking, and the joy of
+            sharing meals with friends and family. We are committed to
+            sustainability, quality, and creating an inviting environment for
+            everyone who walks through our doors.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-gray-800 text-white py-6 px-4 sm:px-6 lg:px-8 text-center"
+    >
+      <h1 class="text-lg font-semibold mb-2">Footer</h1>
+      <p class="text-sm">&copy; 2025 RestaurantEM. All rights reserved.</p>
     </footer>
   </body>
 </html>
