@@ -60,13 +60,11 @@
         />
       </div>
     </header>
-
     <main class="flex-grow">
       <section class="relative py-8 flex flex-col items-center gap-6">
         <div class="text-[#DE8436] text-2xl font-bold px-4 py-2 rounded mb-4">
           Today's Meals
         </div>
-
         <div class="flex flex-wrap justify-center gap-4 px-4 sm:px-6 lg:px-8">
           <img class="meals-img" src="./images/hamburger.jpg" alt="hamburger" />
           <img class="meals-img" src="./images/steak.jpg" alt="steak" />
@@ -74,7 +72,6 @@
           <img class="meals-img" src="./images/ppizza.webp" alt="pizza" />
           <img class="meals-img" src="./images/ppasta.webp" alt="pasta" />
         </div>
-
         <div
           class="w-full mx-auto flex flex-col sm:flex-row bg-[#F6E8DC] h-[400px]"
         >
@@ -101,11 +98,58 @@
           </div>
         </div>
       </section>
-
-      <!-- Section 2 -->
-      <section class="bg-green-200 py-8 px-4 sm:px-6 lg:px-8">
-        <h2 class="text-xl sm:text-2xl font-semibold mb-4">Section 2</h2>
-        <p class="text-sm sm:text-base">Responsive content for section 2.</p>
+      <section class="py-8 px-4 sm:px-6 lg:px-8">
+        <h2
+          class="text-2xl sm:text-3xl font-bold mb-6 text-center text-[#DE8436]"
+        >
+          Menu
+        </h2>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto"
+        >
+          <div
+            class="group bg-white rounded-xl shadow-md overflow-hidden border border-[#D9AC84] transform transition-transform duration-300 hover:scale-105 mt-[140px] sm:mt-0"
+          >
+            <div class="h-64 sm:h-72 overflow-hidden">
+              <img
+                src="./images/ppasta.webp"
+                alt="Pasta"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-4 text-center text-lg font-semibold text-[#D9AC84]">
+              Pasta
+            </div>
+          </div>
+          <div
+            class="group bg-white rounded-xl shadow-md overflow-hidden border border-[#D9AC84] transform transition-transform duration-300 hover:scale-105"
+          >
+            <div class="h-64 sm:h-72 overflow-hidden">
+              <img
+                src="./images/ppizza.webp"
+                alt="Pizza"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-4 text-center text-lg font-semibold text-[#D9AC84]">
+              Pizza
+            </div>
+          </div>
+          <div
+            class="group bg-white rounded-xl shadow-md overflow-hidden border border-[#D9AC84] transform transition-transform duration-300 hover:scale-105"
+          >
+            <div class="h-64 sm:h-72 overflow-hidden">
+              <img
+                src="./images/tiramisu.jpg"
+                alt="Dessert"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-4 text-center text-lg font-semibold text-[#D9AC84]">
+              Dessert
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- Section 3 -->
@@ -114,30 +158,37 @@
         <p class="text-sm sm:text-base">Responsive content for section 3.</p>
       </section>
     </main>
-
-
-    <!-- Footer -->
     <footer class="bg-[#CFA87B] py-10 px-6 md:px-20">
-      <div class="flex flex-col md:flex-row justify-between items-start md:items-start gap-10">
-
-        <!-- Contact Us Section -->
+      <div
+        class="flex flex-col md:flex-row justify-between items-start md:items-start gap-10"
+      >
         <section class="space-y-6">
           <h2 class="text-xl font-semibold text-white">Contact us:</h2>
           <div class="flex items-center space-x-3">
-            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="location" class="w-6 h-6" />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
+              alt="location"
+              class="w-6 h-6"
+            />
             <p class="text-white">Pitter Straße. 24, 5467876, Deutschland</p>
           </div>
           <div class="flex items-center space-x-3">
-            <img src="https://cdn-icons-png.flaticon.com/512/597/597177.png" alt="phone" class="w-6 h-6" />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+              alt="phone"
+              class="w-6 h-6"
+            />
             <p class="text-white">+49 1234598765</p>
           </div>
           <div class="flex items-center space-x-3">
-            <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="email" class="w-6 h-6" />
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/561/561127.png"
+              alt="email"
+              class="w-6 h-6"
+            />
             <p class="text-white">Resturant@web.de</p>
           </div>
         </section>
-
-        <!-- Newsletter Section -->
         <section class="w-full md:w-1/3">
           <h2 class="text-xl font-semibold text-white mb-3">Newsletter</h2>
           <input
@@ -146,14 +197,7 @@
             class="w-full p-2 text-gray-500 bg-white outline-none"
           />
         </section>
-
       </div>
-
-    <class="bg-gray-800 text-white py-6 px-4 sm:px-6 lg:px-8 text-center"
-    >
-      <h1 class="text-lg font-semibold mb-2">Footer</h1>
-      <p class="text-sm">&copy; 2025 ResturantEM. All rights reserved.</p>
-
     </footer>
   </body>
 </html>
