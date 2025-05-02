@@ -8,9 +8,18 @@
       href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
       rel="stylesheet"
     />
-    <title>ResturantEM</title>
+    <title>ResturantEM - Contact</title>
   </head>
-  <body class="flex flex-col min-h-screen max-w-screen-xl mx-auto">
+
+
+  <body class="flex flex-col min-h-screen max-w-screen-lg mx-auto bg-[#d1b08c] text-white font-sans">
+    <!-- HEADER -->
+    <header class="bg-[#D9AC84] text-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
+        <div class="flex items-center">
+          <button class="text-white focus:outline-none">
+            <img src="../images/menu.png" alt="menu" class="w-[30px] h-[30px] filter invert" />
+
     <header class="bg-[#D9AC84] text-white">
       <div
         class="px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between gap-4"
@@ -22,6 +31,7 @@
               alt="menu"
               class="w-8 h-8 filter invert"
             />
+
           </button>
           <div
             class="text-2xl font-bold md:hidden"
@@ -29,7 +39,7 @@
           >
             TOSKANA
           </div>
-        </div>
+        
         <div
           class="hidden md:block text-3xl font-bold"
           style="font-family: 'Italiana', serif"
@@ -44,14 +54,102 @@
           <a href="./about.html" class="hover:underline">About</a>
           <a href="#" class="hover:underline">Contact</a>
         </nav>
-      </div>
+     
     </header>
+
+
+    <!-- CONTACT FORM -->
+    <main class="flex-grow">
+      <section class="min-h-screen flex items-center justify-center px-4 py-10">
+        <div class="w-full max-w-3xl mx-auto">
+          <h2 class="text-3xl font-semibold mb-6 text-white">Contact Us</h2>
+          <form class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+          
+            </div>
+              <label for="first-name" class="block mb-1">First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                placeholder="Your first name"
+                class="w-full px-2 py-1 border border-white rounded-sm text-black text-sm bg-white"
+              />
+            </div>
+            <div>
+              <label for="last-name" class="block mb-1">Last Name</label>
+              <input
+                type="text"
+                id="last-name"
+                placeholder="Your last name"
+                class="w-full px-2 py-1 border border-white rounded-sm text-black text-sm bg-white"
+              />
+            </div>
+            <div class="md:col-span-2">
+              <label for="email" class="block mb-1">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="you@example.com"
+                class="w-full px-2 py-1 border border-white rounded-sm text-black text-sm bg-white"
+              />
+            </div>
+            <div class="md:col-span-2">
+              <label for="message" class="block mb-1">Message</label>
+              <textarea
+                id="message"
+                rows="3"
+                placeholder="Your message..."
+                class="w-full px-2 py-1 border border-white rounded-sm text-black text-sm bg-white resize-none"
+              ></textarea>
+            </div>
+            <div class="md:col-span-2">
+              <button
+                type="submit"
+                class="bg-black text-white px-5 py-1.5 rounded hover:bg-gray-800 transition text-sm mt-2"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#CFA87B] py-10 px-6 md:px-20">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-start gap-10">
+        <section class="space-y-6">
+          <div class="flex items-center space-x-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
+              alt="location"
+              class="w-6 h-6"
+            />
+            <p class="text-white">Pitter Straße. 24, 5467876, Deutschland</p>
+          </div>
+          <div class="flex items-center space-x-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+              alt="phone"
+              class="w-6 h-6"
+            />
+            <p class="text-white">+49 1234598765</p>
+          </div>
+          <div class="flex items-center space-x-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/561/561127.png"
+              alt="email"
+              class="w-6 h-6"
+            />
+            <p class="text-white">Resturant@web.de</p>
+          </div>
+        </section>
+      </div>
+
     <main class="flex-grow"></main>
-    <footer
-      class="bg-gray-800 text-white py-6 px-4 sm:px-6 lg:px-8 text-center"
+    <class="bg-gray-800 text-white py-6 px-4 sm:px-6 lg:px-8 text-center"
     >
       <h1 class="text-lg font-semibold mb-2">Footer</h1>
       <p class="text-sm">&copy; 2025 ResturantEM. All rights reserved.</p>
-    </footer>
+      </footer>
   </body>
 </html>
