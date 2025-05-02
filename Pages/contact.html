@@ -11,6 +11,7 @@
     <title>ResturantEM - Contact</title>
   </head>
 
+
   <body class="flex flex-col min-h-screen max-w-screen-lg mx-auto bg-[#d1b08c] text-white font-sans">
     <!-- HEADER -->
     <header class="bg-[#D9AC84] text-white">
@@ -18,18 +19,44 @@
         <div class="flex items-center">
           <button class="text-white focus:outline-none">
             <img src="../images/menu.png" alt="menu" class="w-[30px] h-[30px] filter invert" />
+
+    <header class="bg-[#D9AC84] text-white">
+      <div
+        class="px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row items-center justify-between gap-4"
+      >
+        <div class="flex items-center justify-between w-full md:w-auto">
+          <button>
+            <img
+              src="../images/menu.png"
+              alt="menu"
+              class="w-8 h-8 filter invert"
+            />
+
           </button>
-        </div>
-        <div class="text-lg font-bold" style="font-family: 'Italiana', serif">
+          <div
+            class="text-2xl font-bold md:hidden"
+            style="font-family: 'Italiana', serif"
+          >
+            TOSKANA
+          </div>
+        
+        <div
+          class="hidden md:block text-3xl font-bold"
+          style="font-family: 'Italiana', serif"
+        >
           TOSKANA
         </div>
-        <nav class="flex space-x-4">
+        <nav
+          class="w-full md:w-auto flex flex-col md:flex-row items-center gap-2 md:gap-6 text-sm md:text-base"
+        >
+          <a href="./reserve.html" class="hover:underline">Reserve</a>
           <a href="../index.html" class="hover:underline">Home</a>
           <a href="./about.html" class="hover:underline">About</a>
           <a href="#" class="hover:underline">Contact</a>
         </nav>
-      </div>
+     
     </header>
+
 
     <!-- CONTACT FORM -->
     <main class="flex-grow">
@@ -37,7 +64,8 @@
         <div class="w-full max-w-3xl mx-auto">
           <h2 class="text-3xl font-semibold mb-6 text-white">Contact Us</h2>
           <form class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-            <div>
+          
+            </div>
               <label for="first-name" class="block mb-1">First Name</label>
               <input
                 type="text"
@@ -116,6 +144,12 @@
           </div>
         </section>
       </div>
-    </footer>
+
+    <main class="flex-grow"></main>
+    <class="bg-gray-800 text-white py-6 px-4 sm:px-6 lg:px-8 text-center"
+    >
+      <h1 class="text-lg font-semibold mb-2">Footer</h1>
+      <p class="text-sm">&copy; 2025 ResturantEM. All rights reserved.</p>
+      </footer>
   </body>
 </html>
